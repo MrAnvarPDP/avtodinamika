@@ -1,0 +1,59 @@
+.car {
+
+}
+
+.car__title {
+    //styleName: H2;
+font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+line-height: 37.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #212121;
+margin-left: 70px;
+margin-top: 100px;
+}
+
+.car__item {
+    width: 130px;
+height: 110px;
+top: 1048px;
+left: 309px;
+padding: 10px 14px 10px 14px;
+gap: 10px;
+border-radius: 4px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF;
+border: 1px solid #C7C7C7;
+}
+
+.car__menu {
+    max-width: 200px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.car__menu-two {
+    max-width: 200px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.car__menu-three {
+    max-width: 200px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.car__text {
+    text-align: center;
+}

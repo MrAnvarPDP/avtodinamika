@@ -1,0 +1,220 @@
+.hero__menu {
+    display: flex;
+    gap: 1.2px;
+    margin-top: 30px;
+  }
+
+  .hero__item {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    background: #000000;
+    color:  #FFFFFF;
+    padding: 8px 10px;
+  }
+
+  .hero__item-two {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    background: #000000;
+    color:  #FFFFFF;
+    padding: 8px 10px;
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .hero__item-three {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    background: #000000;
+    color:  #FFFFFF;
+    padding: 8px 10px;
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  .hero__title {
+    font-family: Roboto;
+font-size: 28px;
+font-weight: 600;
+line-height: 32.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+  }
+
+  .hero__title-two {
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 600;
+line-height: 48.3px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 12px;
+  }
+
+  .hero__title-three {
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 32.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #DC4433;
+margin-top: 12px;
+  }
+
+  .hero__wrapper {
+    margin-left: 90px;
+  }
+
+  .hero__text {
+    margin-top: 18px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 13.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+
+  .hero__image {
+    background-image: url("../../assests/imgs/image\ 42.svg");
+    background-size: contain;
+    width: 875px;
+    height: 368px;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+  }
+
+  .hero__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img__box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  @media only screen and (max-width:960px) {
+    .hero__box {
+      margin-left: 30px;
+    }
+    .hero__title {
+      font-size: 24px;
+    }
+    .hero__title-two {
+      font-size: 36px;
+    }
+    .hero__title-three {
+      font-size: 24px;
+    }
+    .hero__wrapper {
+      margin-left: 0.01px;
+    }
+    .hero__image {
+      width: 550px;
+height: 256px;
+top: 168px;
+left: 559px;
+gap: 0px;
+opacity: 0px;
+    }
+    .hero__text {
+      font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 13.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+  }
+
+  @media only screen and (max-width:460px) {
+    .hero__box {
+      flex-wrap: wrap;
+    }
+    .hero__image {
+      width: 1500px;
+    }
+  }
+
+  @media only screen and (max-width:320px) {
+    .hero__title {
+      font-size: 22px;
+      margin-top: 20px;
+    }
+    .hero__title-two {
+      font-weight: 600;
+      font-size: 27px;
+      margin-top: px;
+    }
+
+    .hero__item {
+      width: 95px;
+      font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 11px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 11px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+align-items: center;
+    }
+    .hero__item-two {
+      width: 95px;
+      font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 11px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 11px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+align-items: center;
+    }
+
+    .hero__item-three {
+      width: 95px;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 11px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 11px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      text-align: center;
+      align-items: center;
+    }
+    .hero__box {
+      margin-left: -3px;
+    }
+    .hero__text {
+      font-size: 13px;
+    }
+  }

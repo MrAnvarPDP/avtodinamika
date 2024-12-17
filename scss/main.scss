@@ -1,0 +1,17 @@
+
+@use './abstracts/variables';
+@use './abstracts/mixin';
+
+@use "./base/reset";
+@use "./base/fonts";
+
+@use './components/header';
+@use './components/hero';
+@use "./components/contact-hero";
+@use "./components/container";
+@use "./components/section";
+@use "./components/section-car";
+@use "./components/cotegory-main";
+
+
+@use "./pages/home";

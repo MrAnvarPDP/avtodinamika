@@ -1,0 +1,501 @@
+.avtomobil {
+    // min-height: calc(30vh - 50px);
+    // background-image: url("../../assests/imgs/image\ 58.png");
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // min-width: calc(100vh - 50px);
+    // background-color: #010302;
+    margin-top: 53px;
+    background-color: #121212;
+    max-width: 100%;
+    padding: auto;
+    padding: 20px 0px;
+}
+
+.avtomobil__title{
+font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+line-height: 37.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+.avtomobil__btn {
+    width: 160px;
+height: 40px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+border: #FFFFFF solid 2px;
+color: #DC4433;
+cursor: pointer;
+}
+
+
+.avtomobil__button {
+    width: 160px;
+height: 40px;
+gap: 10px;
+border-radius: 4px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: var(--zur);
+border: 1px solid #FFFFFF;
+color:#FFFFFF;
+cursor: pointer;
+}
+
+.avtomobil__box {
+    display: flex;
+    gap: 310px;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+.avtomobil__wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+.avtomobil__select-box {
+    display: flex;
+    margin-left:75px;
+    gap: 58px;
+    margin-top: 50px;
+}
+
+
+.select__box {
+    width: 255px;
+    height: 60px;
+    position: relative;
+}
+
+.select__box-2 {
+    width: 255px;
+    height: 60px;
+    position: relative;
+}
+
+.select__box-2::after {
+    content: url("../../assests/imgs/Polygon\ 1.png"); 
+    font-size: 20px;
+    background-repeat: no-repeat;
+    color: #c3c3c3;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.custom__select {
+    width: 255px;
+    padding: 20px 25px 20px 25px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    height: 60px;
+    color: #c3c3c3; 
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.select__box::after {
+    content: url("../../assests/imgs/Polygon\ 1.png"); 
+    font-size: 20px;
+    background-repeat: no-repeat;
+    color: #c3c3c3;
+    position: absolute;
+    top: 50%;
+    left: 130px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.custom__select:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom__select-two:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom__select-three:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom__select:hover {
+    background-color: #f9f9f9;
+}
+
+.custom__select-two:hover {
+    background-color: #f9f9f9;
+}
+
+.custom__select-three:hover {
+    background-color: #f9f9f9;
+}
+
+.select__box {
+    width: 255px;
+    height: 60px;
+    position: relative;
+    display: flex;
+}
+
+.custom__select-two {
+    width: 255px;
+    padding: 20px 25px 20px 25px;
+    gap: 10px;
+    opacity: 0px;
+    height: 60px;
+    color: #c3c3c3; 
+    border: none;
+    border-radius: 8px 0px;
+    background-color: #ffffff;
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.custom__select-three {
+    width: 255px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 2px;
+    gap: 10px;
+    opacity: 0px;
+    height: 60px;
+    color: #c3c3c3; 
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.select__btn {
+    width: Fixed (255px)px;
+    padding: 20px 86px 20px 86px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #DC4433;
+    opacity: 0px;
+    background: #DC4433;
+    color: white;
+    cursor: pointer;
+    height: Fixed (60px)px;
+}
+
+.avtomobil__name {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 260px;
+    height: 60px;
+  }
+  
+  .price__input {
+    width: 127.5px;
+    border: none;
+    font-size: 18px;
+    color: #999;
+    outline: none;
+    text-align: center;
+  }
+  
+  .price-input::placeholder {
+    color: #999;
+    font-size: 18px;
+  }
+  
+  .price-input + .price-input {
+    border-left: 1px solid #ccc;
+  }
+
+  .avtomobil__btn-box {
+    display: flex;
+    gap: 55px;
+  }
+
+  @media only screen and (max-width:960px) {
+
+    .select__btn {
+        width: 220px;
+        height: 60px;
+        top: 120px;
+        left: 879px;
+padding: 20px 60px 20px 60px;
+gap: 10px;
+border-radius: 4px ;
+opacity: 0px;
+margin-left: -25px;
+    }
+    .avtomobil__title {
+        font-size: 25px;
+    }
+
+
+    .avtomobil__box {
+        gap: 100px;
+        justify-content: center;
+        margin-left: -10px;
+    }
+
+    .avtomobil__select-box {
+        margin-left: 125px;
+    }
+    .select__box {
+    }
+
+    .avtomobil__last{
+        margin-left: -93px;
+        gap: 0px;
+    }
+
+    .custom__select-two {
+        width: 150px;
+height: 60px;
+top: 120px;
+left: 159px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+    }
+
+    .custom__select-three {
+        width: 150px;
+height: 60px;
+top: 120px;
+left: 159px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+margin-left: -125px;
+    }
+
+    .price__input {
+        width: px;
+        margin-left: -20px;
+    }
+
+    .avtomobil__name {
+        width: 220px;
+        margin-left: -255px;
+    }
+
+    .avtomobil__btn {
+        width: 140px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .custom__select {
+        width: 160px;
+height: 60px;
+top: 120px;
+left: 159px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+    }
+
+    .avtomobil__wrapper {
+        gap: 14px;
+    }
+  }
+  .avtomobil__brand {
+    display: flex;
+    gap: 60px;
+  }
+
+  @media only screen and (max-width:460px) {
+    .avtomobil__box {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 115px;
+    }
+
+
+    .avtomobil {
+        overflow-x: hidden; /* Gorizontal scrollni yo'qotish */
+        padding: 10px; /* Ichki bo'shliqni moslashtirish */
+        background-color: #121212; 
+    }
+
+    .select__box::after {
+        content: url("../../assests/imgs/Polygon\ 1.png"); 
+        font-size: 20px;
+        background-repeat: no-repeat;
+        color: #c3c3c3;
+        position: absolute;
+        top: 110%;
+        left: 130x;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .select__box-2::after {
+        content: url("../../assests/imgs/Polygon\ 1.png"); 
+        font-size: 20px;
+        background-repeat: no-repeat;
+        color: #c3c3c3;
+        position: absolute;
+        top: 48%;
+        left: 317px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+
+
+    .avtomobil__title {
+        margin-left: -230px;
+    }
+
+    .avtomobil__btn {
+        width: 120px;
+height: 40px;
+top: 98px;
+left: 187px;
+// padding: 10px 54px 10px 54px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+margin-top: -80px;
+    }
+
+    .avtomobil__last {
+        flex-wrap: wrap;
+    }
+
+    .select__box-2 {
+        flex-wrap: wrap;
+    }
+
+    .avtomobil__brand {
+        flex-wrap: wrap;
+        margin-top: -190px;
+    }
+    .avtomobil__button {
+        width: 120px;
+height: 40px;
+top: 98px;
+left: 345px;
+// padding: 10px 54px 10px 54px;
+gap: 10px;
+border-radius: 4px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin-top: -80px;
+    }
+
+    .avtomobil__select-box {
+    flex-wrap: wrap;
+    }
+
+
+
+    .avtomobil__wrapper {
+        margin-left: -100px;
+    }
+
+    .avtomobil__btn-box {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .custom__select-two {
+        width: 390px;
+height: 60px;
+top: 168px;
+left: 187px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+margin-left: -226px;
+margin-top: 20px;
+    }
+
+
+    .custom__select-three {
+        width: 390px;
+height: 60px;
+top: 168px;
+left: 187px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+margin-left: -18px;
+    }
+    .price-input {
+        width: px;
+height: 60px;
+top: 168px;
+left: 187px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px ;
+opacity: 0px;
+
+    }
+.price__input {
+    width: 390px;
+}
+    .avtomobil__name {
+        width: 390px;
+        margin-left: -20px;
+        margin-top: 45px;
+    }
+    .select__box {
+        width: 460px;
+height: 60px;
+top: 168px;
+left: 187px;
+padding: 21px 20px 20px 20px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+    }
+    .select__btn {
+        margin-left: 70px;
+        margin-top: -30px;
+    }
+  }
+  
+
+  @media only screen and (max-width:320px) {
+    .avtomobil__wrapper {
+        max-width: 100px;
+        flex-wrap: wrap;
+    }
+  }

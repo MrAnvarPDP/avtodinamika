@@ -1,0 +1,325 @@
+
+.header{
+
+}
+
+.top-page-line {
+    padding: 17px 0;
+    background: #000000;
+    color: white;
+  }
+  .wrapper__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .hours {
+    position: relative;
+  }
+  
+  .hours::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 1px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("../../assests/imgs/Subtract.svg");
+    left: -20px;
+  }
+  
+  .phone {
+    position: relative;
+    margin-left: 10px;
+  }
+  
+  .phone::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 1px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("../../assests/imgs/Subtract\ \(2\).svg");
+    left: -20px;
+  }
+  
+  .phone__info {
+    margin-left: 10px;
+  }
+  
+  .search-link {
+    position: relative;
+  }
+  
+  .search-link::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 1px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("../../assests/imgs/Subtract\ \(1\).svg");
+    left: -20px;
+  }
+  
+  .callback {
+  }
+  
+  .header {
+    padding: 21px 0px;
+    box-shadow: 0px 1px 1px 0px #0000001a;
+  }
+  
+  .header__wrapper {
+    gap: 140px;
+    margin-left: -105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  // .header__logo {
+  //   width: 146px;
+  //   height: 28px;
+  //   // gap: 0px;
+  //   // opacity: 0px;
+  // }
+  
+  .header__menu {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    // margin-left: -55px;
+  }
+  
+  .header__link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #424242;
+  }
+  
+  .header__link:hover {
+    color: #dc4433;
+  }
+  
+  .header__img {
+    align-items: center;
+    text-align: center;
+  }
+
+.hours {
+  position: relative;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.hours::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("../../assests/imgs/Subtract.svg");
+  left: -20px;
+}
+
+.phone {
+  position: relative;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.phone::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("../../assests/imgs/Subtract\ \(2\).svg");
+  left: -20px;
+}
+
+.phone__info {
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.search-link {
+  position: relative;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.search-link::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("../../assests/imgs/Subtract\ \(1\).svg");
+  left: -20px;
+}
+
+.callback {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white
+}
+
+.header {
+  padding: 21px 0px;
+  box-shadow: 0px 1px 1px 0px #0000001a;
+}
+
+.header__wrapper {
+  gap: 100px;
+  margin-left: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .header__logo {
+//   width: 146px;
+//   height: 28px;
+//   // gap: 0px;
+//   // opacity: 0px;
+// }
+
+.header__menu {
+  align-items: center;
+  display: flex;
+  gap: 26px;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #424242;
+}
+
+.header__link:hover {
+  color: #dc4433;
+}
+
+.header__img {
+  align-items: center;
+  text-align: center;
+}
+
+.header__burger {
+  display: none;
+}
+
+// @media only screen and (max-width: 960px) {
+//   .header__burger {
+//     display: block;
+//   }
+//   .header__wrapper {
+//     display: flex;
+//     gap: 600px;
+//   }
+//   .header__menu {
+//     display: none;
+//   }
+// <<<<<<< HEAD
+
+  @media only screen and (max-width:960px) {
+    .header__burger {
+        display: block;
+    }
+    .header__wrapper {
+        display: flex;
+        gap: 680px;
+        margin-left: -10px;
+    }
+    .header__menu {
+        display: none;
+    }
+    .wrapper__info {
+        gap: 50px;
+    }
+}
+
+  @media only screen and (max-width:460px) {
+    .hours {
+        display: none;
+    }
+    .phone__info {
+        display: none;
+    }
+    .wrapper__info {
+        gap: 40px;
+        margin-left: 67px;
+    }
+    .header__wrapper {
+        gap: 200px;
+        margin-left: 4px;
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+  .phone {
+    display: none;
+  }
+  .wrapper__info {
+    margin-left: 73px;
+    gap: 20px;
+  }
+  .header__wrapper {
+    gap: 100px;
+  }
+}
